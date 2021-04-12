@@ -124,7 +124,7 @@ const HotelForm = (props) => {
               <Form.Item
                 name="distance"
                 label="Distance"
-                rules={[{ required: false }]}
+                rules={[{ required: true }]}
               >
                 <Select
                   placeholder="Please select Distance"
@@ -139,7 +139,7 @@ const HotelForm = (props) => {
               <Form.Item
                 name="brand"
                 label="Brands"
-                rules={[{ required: false }]}
+                rules={[{ required: true }]}
               >
                 <Select
                   placeholder="Please select a Brand"
