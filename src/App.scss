@@ -1,0 +1,34 @@
+@import './theme.scss';
+
+$blue-1: #0088ff;
+$grey-bg: #ececec;
+
+.form {
+  color: $blue-1;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.site-layout-content {
+  min-height: calc(100vh - 134px);
+  padding: 24px;
+  background: $grey-bg;
+}
+.logo {
+  line-height: 31px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
